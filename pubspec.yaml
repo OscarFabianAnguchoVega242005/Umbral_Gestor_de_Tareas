@@ -1,0 +1,37 @@
+name: flutter_umbral
+description: "App de lista de tareas con notificaciones"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Manejo de estados (para actualizar UI fácilmente)
+  provider: ^6.1.2
+
+  # Para guardar datos localmente (persistencia de tareas)
+  shared_preferences: ^2.3.2
+
+  # Para trabajar con fechas y horas más fácil
+  intl: ^0.19.0
+
+  # Para notificaciones locales en Android/iOS
+  flutter_local_notifications: ^17.2.1+2
+
+  # Para pedir permisos de notificación en Android/iOS
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
